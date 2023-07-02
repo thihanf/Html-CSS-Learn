@@ -1,0 +1,64 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial;
+  border: 0;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  padding: 10px 15px 10px 15px;
+
+  width: 400px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.specification {
+  color: gray;
+  font-size: 14px;
+}
+
+.message {
+  display: flex;
+  margin-top: 20px;
+  line-height: 20px;
+  align-items: center;
+}
+
+.content {
+  flex: 1;
+}
+
+.profile-picture {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.sender {
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.promotion {
+  font-weight: bold;
+}
+
+.info {
+  color: gray;
+  font-size: 14px;
+}
+
+.time {
+  color: gray;
+  font-size: 14px;
+}
