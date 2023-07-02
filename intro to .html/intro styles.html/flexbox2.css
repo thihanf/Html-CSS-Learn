@@ -1,0 +1,102 @@
+.div {
+  font-family: Arial;
+}
+
+.container {
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 15px;
+  border-color: rgb(200, 200, 200);
+  width: 300px;
+}
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 12px 6px 12px;
+}
+
+.notifications {
+  background-color: blue;
+  color: white;
+  padding: 3px 10px 3px 10px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+div {
+  font-family: Arial;
+}
+
+.bar {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  height: 55px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 15px 0px 15px;
+  background-color: purple;
+  margin-bottom: 100px;
+}
+
+.left {
+  color: white;
+  font-size: 16px;
+  width: 40px;
+}
+.info {
+  width: 200px;
+}
+
+.searchbar {
+  width: 350px;
+  padding: 6px 0px 6px 10px;
+  border-radius: 10px;
+  border: 0;
+  font-size: 12px;
+}
+
+.right {
+  border: 1px;
+  border-style: solid;
+  border-color: white;
+  padding: 8px 10px 8px 10px;
+  color: white;
+  font-size: 14px;
+}
+
+.row {
+  display: flex;
+
+  padding: 5px 8px 5px 8px;
+  align-items: center;
+}
+.profilepicture {
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.name {
+  font-weight: bold;
+}
+.appearance {
+  color: gray;
+}
+
+.stats {
+  color: gray;
+  font-size: 14px;
+}
+.icon {
+  background-color: blue;
+  color: white;
+  border: 0;
+  padding: 6px 5px 6px 5px;
+  border-radius: 4px;
+}

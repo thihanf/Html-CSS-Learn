@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .Shadow-button {
+        background-color: green;
+        font-size: 16px;
+
+        border: none;
+        color: white;
+        padding: 6px 16px 6px 16px;
+        transition: box-shadow 1s;
+        cursor: pointer;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+      }
+      .Shadow-button:active {
+        margin-top: 6px;
+
+        margin-left: 3px;
+        box-shadow: none;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="Shadow-button">Shadow</button>
+  </body>
+</html>

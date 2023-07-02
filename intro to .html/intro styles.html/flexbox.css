@@ -1,0 +1,66 @@
+.flexbox {
+  display: flex;
+  flex-direction: row;
+}
+.flexbox2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.flexbox3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.flexbox4 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: gray;
+  height: 55px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lightblue {
+  background-color: lightblue;
+  width: 200px;
+}
+.lightpink {
+  background-color: lightpink;
+  width: 75px;
+}
+.item1 {
+  background-color: lightblue;
+  width: 50px;
+}
+.item2 {
+  background-color: lightpink;
+  flex: 1;
+}
+.item3 {
+  background-color: lightblue;
+  width: 75px;
+}
+.Item1 {
+  background-color: lightpink;
+}
+.Item2 {
+  background-color: lightpink;
+}
+.Item3 {
+  background-color: lightpink;
+}
+.Item4 {
+  background-color: lightpink;
+}
+.lightpink1 {
+  background-color: lightpink;
+}
+.lightpink2 {
+  background-color: lightpink;
+  justify-content: end;
+}
