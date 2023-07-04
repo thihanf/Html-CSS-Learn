@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+}
+.sub-title {
+  display: flex;
+}
+.profile {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 30px;
+  margin-right: 10px;
+}
+
+.info {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+}
