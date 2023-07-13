@@ -1,0 +1,60 @@
+div {
+  font-family: Arial;
+}
+
+body {
+  height: 3000px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 20px;
+  left: 20px;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.profile-picture {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-right: 12px;
+}
+
+.user-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.right-section {
+  display: flex;
+  flex: 1;
+  justify-content: end;
+  align-items: center;
+}
+
+.add-freind-button {
+  background-color: rgb(19, 19, 206);
+  color: white;
+  border: 0;
+  padding: 8px 6px 8px 6px;
+  margin-right: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.message-button {
+  background-color: rgb(240, 240, 240);
+  padding: 8px 6px 8px 6px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  border: 0;
+}

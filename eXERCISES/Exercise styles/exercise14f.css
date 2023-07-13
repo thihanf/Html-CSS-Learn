@@ -1,0 +1,58 @@
+div {
+  font-family: Arial;
+}
+
+body {
+  height: 3000px;
+}
+
+.side-bar {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(25, 25, 25);
+  position: fixed;
+  width: 80px;
+  top: 0;
+  bottom: 0;
+  align-items: center;
+}
+
+.profile-picture {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  margin-top: 10px;
+}
+
+.second-side-bar {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(51, 51, 51);
+  position: fixed;
+  width: 200px;
+  top: 0;
+  bottom: 0;
+  left: 80px;
+  color: gray;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  margin-top: 10px;
+  color: white;
+}
+
+.sign {
+  font-size: 24px;
+  color: gray;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  line-height: 40px;
+}
