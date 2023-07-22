@@ -7,6 +7,7 @@
   top: 0;
   right: 0;
   left: 0;
+  z-index: 100;
   background-color: white;
   border-bottom: 1px;
   border-bottom-style: solid;
@@ -106,7 +107,23 @@
 
 .notifications-button {
   height: 24px;
-  width: 24px;
+}
+
+.notifications-icons-container {
+  position: relative;
+}
+
+.notifications-count {
+  position: absolute;
+  background-color: rgb(204, 0, 0);
+  color: white;
+
+  top: -2px;
+  right: -6px;
+  font-family: Roboto, Arial;
+  font-size: 12px;
+  padding: 2px 6px 2px 6px;
+  border-radius: 10px;
 }
 
 .channel-picture-icon {
