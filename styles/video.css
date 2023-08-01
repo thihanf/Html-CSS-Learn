@@ -28,7 +28,7 @@
 }
 
 .thumbnail-row {
-  margin-bottom: 12px;
+  margin-bottom: 8 n px;
   position: relative;
 }
 
@@ -52,4 +52,9 @@
   font-family: Arial;
   font-weight: bold;
   padding: 3px 5px;
+}
+
+.video-title-link {
+  text-decoration: none;
+  color: black;
 }
